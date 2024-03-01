@@ -1,0 +1,17 @@
+h1 {
+  font-size: 66px;
+  line-height: 72px;
+  text-align: start;
+  font-weight: 400;
+  margin-bottom: 45px;
+
+  @include respond-to(tablet) {
+    font-size: 56px;
+    line-height: 62px;
+  }
+
+  @include respond-to(mobile) {
+    font-size: 28px;
+    line-height: 34px;
+  }
+}
