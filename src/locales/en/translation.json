@@ -1,0 +1,17 @@
+{
+  "header": {
+    "logIn": "Log in"
+  },
+  "chooseHouse": {
+    "title": "Choose a house",
+    "firstBanner": {
+      "title": "Foam party",
+      "description": "Make yourself and your loved ones happy with a party that will be remembered for a long time! From us - masters who will install all the necessary equipment, and from you - only good mood! The duration of the event depends only on you.",
+      "date": "25.05.2024"
+    }
+  },
+  "footer": {
+    "privacyPolicy": "privacy policy",
+    "publicOffer": "public offer"
+  }
+}

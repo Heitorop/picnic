@@ -1,0 +1,63 @@
+.banner {
+  display: flex;
+  margin-bottom: 20px;
+  border-radius: 24px;
+  background-color: #fff;
+  padding: 25px;
+  text-align: start;
+
+  &__img {
+    width: 50%;
+  }
+
+  &__content {
+    padding: 15px 0 15px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__title {
+    font-size: 40px;
+    line-height: 46px;
+    margin: 0;
+  }
+
+  &__description,
+  &__date {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  &__date {
+    color: #b5bbdb;
+    margin: 0;
+  }
+
+  @include respond-to(tablet) {
+    flex-direction: column;
+
+    &__img {
+      width: 100%;
+      margin-bottom: 25px;
+    }
+
+    &__content {
+      padding: 0;
+    }
+  }
+
+  @include respond-to(mobileLarge){
+    &__title {
+        font-size: 20px;
+        line-height: 26px;
+        margin: 0;
+      }
+    
+      &__description,
+      &__date {
+        font-size: 14px;
+        line-height: 20px;
+      }
+  }
+}

@@ -1,4 +1,4 @@
-import AddBtn from 'assets/AddBtn';
+import AddBtn from '@/ui/AddBtn/AddBtn';
 import map from 'assets/housesMap.svg';
 import mapTablet from 'assets/housesMapTablet.svg';
 import mapMobile from 'assets/housesMapMobile.svg';
@@ -13,27 +13,27 @@ const Map = () => {
         <img src={map} alt='map' />
       </picture>
       <AddBtn
-        className='map_btn-first'
+        className='map__btn-first'
         pathColor='#7EA373'
         circleColor='#fff'
       />
       <AddBtn
-        className='map_btn-second'
+        className='map__btn-second'
         pathColor='#7EA373'
         circleColor='#fff'
       />
       <AddBtn
-        className='map_btn-third'
+        className='map__btn-third'
         pathColor='#7EA373'
         circleColor='#fff'
       />
       <AddBtn
-        className='map_btn-fourth'
+        className='map__btn-fourth'
         pathColor='#7EA373'
         circleColor='#fff'
       />
       <AddBtn
-        className='map_btn-fifth'
+        className='map__btn-fifth'
         pathColor='#7EA373'
         circleColor='#fff'
       />

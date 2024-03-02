@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './main.scss';
 import App from './App.tsx';
 import { BrowserRouter } from 'react-router-dom';
+import './main.scss';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <BrowserRouter basename="/">
-      <App />
-    </BrowserRouter>
+      <BrowserRouter basename='/'>
+        <App />
+      </BrowserRouter>
   </React.StrictMode>
 );

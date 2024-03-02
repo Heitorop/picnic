@@ -1,15 +1,17 @@
 import inst from 'assets/inst.svg';
 import fb from 'assets/fb.svg';
+import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
+  const { t } = useTranslation();
   return (
     <footer>
       <ul>
         <li>
-          <a href='#'>privacy policy</a>
+          <a href='#'>{t('footer.privacyPolicy')}</a>
         </li>
         <li>
-          <a href='#'>public offer</a>
+          <a href='#'>{t('footer.publicOffer')}</a>
         </li>
       </ul>
       <div>
